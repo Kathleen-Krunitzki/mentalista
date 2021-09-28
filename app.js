@@ -4,8 +4,6 @@ function Chutar() {
 
     var elementoResultado = document.getElementById("resultado");
     var chute = parseInt(document.getElementById("valor").value);
-    console.log(chute);
-
 
     if (isNaN(chute)) {
         elementoResultado.innerHTML = "Informe um número";
